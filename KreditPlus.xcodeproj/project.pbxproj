@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5C5AFBA28C3C4D70010AB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5AFB928C3C4D70010AB34 /* AppDelegate.swift */; };
+		B5C5AFBC28C3C4D70010AB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5AFBB28C3C4D70010AB34 /* SceneDelegate.swift */; };
+		B5C5AFBE28C3C4D70010AB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5AFBD28C3C4D70010AB34 /* ViewController.swift */; };
+		B5C5AFC128C3C4D70010AB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C5AFBF28C3C4D70010AB34 /* Main.storyboard */; };
+		B5C5AFC328C3C4D90010AB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C5AFC228C3C4D90010AB34 /* Assets.xcassets */; };
+		B5C5AFC628C3C4D90010AB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C5AFC428C3C4D90010AB34 /* LaunchScreen.storyboard */; };
+		B5C5AFD128C3C4DA0010AB34 /* KreditPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5AFD028C3C4DA0010AB34 /* KreditPlusTests.swift */; };
+		B5C5AFDB28C3C4DA0010AB34 /* KreditPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5AFDA28C3C4DA0010AB34 /* KreditPlusUITests.swift */; };
+		B5C5AFDD28C3C4DA0010AB34 /* KreditPlusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5AFDC28C3C4DA0010AB34 /* KreditPlusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5C5AFCD28C3C4DA0010AB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C5AFAE28C3C4D70010AB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C5AFB528C3C4D70010AB34;
+			remoteInfo = KreditPlus;
+		};
+		B5C5AFD728C3C4DA0010AB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C5AFAE28C3C4D70010AB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C5AFB528C3C4D70010AB34;
+			remoteInfo = KreditPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5C5AFB628C3C4D70010AB34 /* KreditPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KreditPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C5AFB928C3C4D70010AB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5C5AFBB28C3C4D70010AB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5C5AFBD28C3C4D70010AB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5C5AFC028C3C4D70010AB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C5AFC228C3C4D90010AB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C5AFC528C3C4D90010AB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5C5AFC728C3C4D90010AB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C5AFCC28C3C4DA0010AB34 /* KreditPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KreditPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C5AFD028C3C4DA0010AB34 /* KreditPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KreditPlusTests.swift; sourceTree = "<group>"; };
+		B5C5AFD628C3C4DA0010AB34 /* KreditPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KreditPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C5AFDA28C3C4DA0010AB34 /* KreditPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KreditPlusUITests.swift; sourceTree = "<group>"; };
+		B5C5AFDC28C3C4DA0010AB34 /* KreditPlusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KreditPlusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C5AFB328C3C4D70010AB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5AFC928C3C4DA0010AB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5AFD328C3C4DA0010AB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C5AFAD28C3C4D70010AB34 = {
+			isa = PBXGroup;
+			children = (
+				B5C5AFB828C3C4D70010AB34 /* KreditPlus */,
+				B5C5AFCF28C3C4DA0010AB34 /* KreditPlusTests */,
+				B5C5AFD928C3C4DA0010AB34 /* KreditPlusUITests */,
+				B5C5AFB728C3C4D70010AB34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C5AFB728C3C4D70010AB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5AFB628C3C4D70010AB34 /* KreditPlus.app */,
+				B5C5AFCC28C3C4DA0010AB34 /* KreditPlusTests.xctest */,
+				B5C5AFD628C3C4DA0010AB34 /* KreditPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C5AFB828C3C4D70010AB34 /* KreditPlus */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5AFB928C3C4D70010AB34 /* AppDelegate.swift */,
+				B5C5AFBB28C3C4D70010AB34 /* SceneDelegate.swift */,
+				B5C5AFBD28C3C4D70010AB34 /* ViewController.swift */,
+				B5C5AFBF28C3C4D70010AB34 /* Main.storyboard */,
+				B5C5AFC228C3C4D90010AB34 /* Assets.xcassets */,
+				B5C5AFC428C3C4D90010AB34 /* LaunchScreen.storyboard */,
+				B5C5AFC728C3C4D90010AB34 /* Info.plist */,
+			);
+			path = KreditPlus;
+			sourceTree = "<group>";
+		};
+		B5C5AFCF28C3C4DA0010AB34 /* KreditPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5AFD028C3C4DA0010AB34 /* KreditPlusTests.swift */,
+			);
+			path = KreditPlusTests;
+			sourceTree = "<group>";
+		};
+		B5C5AFD928C3C4DA0010AB34 /* KreditPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5AFDA28C3C4DA0010AB34 /* KreditPlusUITests.swift */,
+				B5C5AFDC28C3C4DA0010AB34 /* KreditPlusUITestsLaunchTests.swift */,
+			);
+			path = KreditPlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C5AFB528C3C4D70010AB34 /* KreditPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C5AFE028C3C4DA0010AB34 /* Build configuration list for PBXNativeTarget "KreditPlus" */;
+			buildPhases = (
+				B5C5AFB228C3C4D70010AB34 /* Sources */,
+				B5C5AFB328C3C4D70010AB34 /* Frameworks */,
+				B5C5AFB428C3C4D70010AB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KreditPlus;
+			productName = KreditPlus;
+			productReference = B5C5AFB628C3C4D70010AB34 /* KreditPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C5AFCB28C3C4DA0010AB34 /* KreditPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C5AFE328C3C4DA0010AB34 /* Build configuration list for PBXNativeTarget "KreditPlusTests" */;
+			buildPhases = (
+				B5C5AFC828C3C4DA0010AB34 /* Sources */,
+				B5C5AFC928C3C4DA0010AB34 /* Frameworks */,
+				B5C5AFCA28C3C4DA0010AB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C5AFCE28C3C4DA0010AB34 /* PBXTargetDependency */,
+			);
+			name = KreditPlusTests;
+			productName = KreditPlusTests;
+			productReference = B5C5AFCC28C3C4DA0010AB34 /* KreditPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5C5AFD528C3C4DA0010AB34 /* KreditPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C5AFE628C3C4DA0010AB34 /* Build configuration list for PBXNativeTarget "KreditPlusUITests" */;
+			buildPhases = (
+				B5C5AFD228C3C4DA0010AB34 /* Sources */,
+				B5C5AFD328C3C4DA0010AB34 /* Frameworks */,
+				B5C5AFD428C3C4DA0010AB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C5AFD828C3C4DA0010AB34 /* PBXTargetDependency */,
+			);
+			name = KreditPlusUITests;
+			productName = KreditPlusUITests;
+			productReference = B5C5AFD628C3C4DA0010AB34 /* KreditPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C5AFAE28C3C4D70010AB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B5C5AFB528C3C4D70010AB34 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B5C5AFCB28C3C4DA0010AB34 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B5C5AFB528C3C4D70010AB34;
+					};
+					B5C5AFD528C3C4DA0010AB34 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B5C5AFB528C3C4D70010AB34;
+					};
+				};
+			};
+			buildConfigurationList = B5C5AFB128C3C4D70010AB34 /* Build configuration list for PBXProject "KreditPlus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C5AFAD28C3C4D70010AB34;
+			productRefGroup = B5C5AFB728C3C4D70010AB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C5AFB528C3C4D70010AB34 /* KreditPlus */,
+				B5C5AFCB28C3C4DA0010AB34 /* KreditPlusTests */,
+				B5C5AFD528C3C4DA0010AB34 /* KreditPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C5AFB428C3C4D70010AB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5AFC628C3C4D90010AB34 /* LaunchScreen.storyboard in Resources */,
+				B5C5AFC328C3C4D90010AB34 /* Assets.xcassets in Resources */,
+				B5C5AFC128C3C4D70010AB34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5AFCA28C3C4DA0010AB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5AFD428C3C4DA0010AB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C5AFB228C3C4D70010AB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5AFBE28C3C4D70010AB34 /* ViewController.swift in Sources */,
+				B5C5AFBA28C3C4D70010AB34 /* AppDelegate.swift in Sources */,
+				B5C5AFBC28C3C4D70010AB34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5AFC828C3C4DA0010AB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5AFD128C3C4DA0010AB34 /* KreditPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5AFD228C3C4DA0010AB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5AFDB28C3C4DA0010AB34 /* KreditPlusUITests.swift in Sources */,
+				B5C5AFDD28C3C4DA0010AB34 /* KreditPlusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5C5AFCE28C3C4DA0010AB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C5AFB528C3C4D70010AB34 /* KreditPlus */;
+			targetProxy = B5C5AFCD28C3C4DA0010AB34 /* PBXContainerItemProxy */;
+		};
+		B5C5AFD828C3C4DA0010AB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C5AFB528C3C4D70010AB34 /* KreditPlus */;
+			targetProxy = B5C5AFD728C3C4DA0010AB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5C5AFBF28C3C4D70010AB34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C5AFC028C3C4D70010AB34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C5AFC428C3C4D90010AB34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C5AFC528C3C4D90010AB34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C5AFDE28C3C4DA0010AB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5C5AFDF28C3C4DA0010AB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C5AFE128C3C4DA0010AB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F25V9947YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KreditPlus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Novi.KreditPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5C5AFE228C3C4DA0010AB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F25V9947YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KreditPlus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Novi.KreditPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5C5AFE428C3C4DA0010AB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F25V9947YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Novi.KreditPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KreditPlus.app/KreditPlus";
+			};
+			name = Debug;
+		};
+		B5C5AFE528C3C4DA0010AB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F25V9947YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Novi.KreditPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KreditPlus.app/KreditPlus";
+			};
+			name = Release;
+		};
+		B5C5AFE728C3C4DA0010AB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F25V9947YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Novi.KreditPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KreditPlus;
+			};
+			name = Debug;
+		};
+		B5C5AFE828C3C4DA0010AB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F25V9947YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Novi.KreditPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KreditPlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C5AFB128C3C4D70010AB34 /* Build configuration list for PBXProject "KreditPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5AFDE28C3C4DA0010AB34 /* Debug */,
+				B5C5AFDF28C3C4DA0010AB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C5AFE028C3C4DA0010AB34 /* Build configuration list for PBXNativeTarget "KreditPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5AFE128C3C4DA0010AB34 /* Debug */,
+				B5C5AFE228C3C4DA0010AB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C5AFE328C3C4DA0010AB34 /* Build configuration list for PBXNativeTarget "KreditPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5AFE428C3C4DA0010AB34 /* Debug */,
+				B5C5AFE528C3C4DA0010AB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C5AFE628C3C4DA0010AB34 /* Build configuration list for PBXNativeTarget "KreditPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5AFE728C3C4DA0010AB34 /* Debug */,
+				B5C5AFE828C3C4DA0010AB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C5AFAE28C3C4D70010AB34 /* Project object */;
+}
