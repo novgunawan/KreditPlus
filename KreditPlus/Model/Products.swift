@@ -8,17 +8,23 @@
 import Foundation
 
 
-enum Category: Codable {
-    case menClothing
-    case jewelery
-    case electronics
-    case womenClothing
-    
+//enum Category: String, Codable {
+//    case menClothing
+//    case jewelery
+//    case electronics
+//    case womenClothing
+//}
+
+struct Rating: Codable {
+    let rate: Double
+    let count: Int
 }
 struct Products: Codable {
     let id: Int
     let title: String
     let price: Double
     let description: String
-    let category: Category
+    let category: String
+    let image: String
+    let rating: Rating
 }
