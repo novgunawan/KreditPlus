@@ -7,14 +7,6 @@
 
 import Foundation
 
-
-//enum Category: String, Codable {
-//    case menClothing
-//    case jewelery
-//    case electronics
-//    case womenClothing
-//}
-
 struct Rating: Codable {
     let rate: Double
     let count: Int
