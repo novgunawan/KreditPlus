@@ -7,13 +7,39 @@
 
 import UIKit
 
-class ProductsController: UITableViewController {
+class ProductController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavbar()
+        setupTableView()
+        fetchData()
+        
 
     }
-
+    
+    fileprivate func fetchData() {
+        Service.shared.performRequest(urlString: Service.shared.productURL)
+    }
+    
+    fileprivate func setupNavbar() {
+    
+        let navbar = navigationController?.navigationBar
+        navigationItem.title = "Products"
+        navbar?.prefersLargeTitles = true
+        navbar?.backgroundColor = .black
+        navbar?.isTranslucent = false
+        navbar?.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+    }
+    
+    fileprivate func setupTableView() {
+        tableView.register(ProductCell.self, forCellReuseIdentifier: Constant.cellName)
+        tableView.backgroundColor = .white
+        tableView.separatorInset = UIEdgeInsets(top: 0, left: 24, bottom: 0, right: 24)
+        tableView.separatorColor = .gray
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 50
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
