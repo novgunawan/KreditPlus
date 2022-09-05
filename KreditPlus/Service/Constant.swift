@@ -10,4 +10,8 @@ import Foundation
 struct Constant {
     static let cellName = "productCell"
     static let imagePlaceholder = "imagePlaceholder"
+    
+    struct Image {
+        static let star = "star.fill"
+    }
 }

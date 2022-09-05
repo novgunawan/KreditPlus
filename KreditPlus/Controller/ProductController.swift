@@ -51,18 +51,23 @@ class ProductController: UITableViewController, UpdateTableView {
 //        tableView.separatorColor = .gray
 //        tableView.separatorInset = UIEdgeInsets(top: 10, left: 24, bottom: 10, right: 24)
         tableView.estimatedRowHeight = 200
-        tableView.rowHeight = UITableView.automaticDimension
+        tableView.rowHeight = view.frame.height/6
         tableView.dataSource = self
+        tableView.allowsSelection = false
+        
     }
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return productsViewModel.count
     }
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constant.cellName, for: indexPath) as! ProductCell
+        cell.selectionStyle = .none
+        cell.isUserInteractionEnabled = false
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constant.cellName, for: indexPath) as! ProductCell
-        print("IndexPath dari table: \(indexPath)")
         cell.indexPathTableView = indexPath
         cell.delegate = self
         let productViewModel = productsViewModel[indexPath.row]

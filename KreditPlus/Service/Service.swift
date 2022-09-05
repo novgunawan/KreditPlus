@@ -53,7 +53,6 @@ class Service {
         
         queue.async {
             if let imageData = try? Data(contentsOf: url) {
-                print(Thread.current)
                 if let loadedImage = UIImage(data: imageData) {
                     DispatchQueue.main.async {
                         result = loadedImage
