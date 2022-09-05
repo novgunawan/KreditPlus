@@ -48,8 +48,7 @@ class ProductController: UITableViewController, UpdateTableView {
     fileprivate func setupTableView() {
         tableView.register(ProductCell.self, forCellReuseIdentifier: Constant.cellName)
         tableView.backgroundColor = .white
-//        tableView.separatorColor = .gray
-//        tableView.separatorInset = UIEdgeInsets(top: 10, left: 24, bottom: 10, right: 24)
+        tableView.separatorColor = .clear
         tableView.estimatedRowHeight = 200
         tableView.rowHeight = view.frame.height/6
         tableView.dataSource = self
